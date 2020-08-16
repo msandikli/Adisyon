@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{985C4F2A-2389-4933-A260-BCBB021E25B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Adisyon</RootNamespace>
+    <AssemblyName>Adisyon</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aya Göre Ciro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aya Göre Ciro.Designer.cs">
+      <DependentUpon>Aya Göre Ciro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garson Parolası Değiştir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garson Parolası Değiştir.Designer.cs">
+      <DependentUpon>Garson Parolası Değiştir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garson.Designer.cs">
+      <DependentUpon>Garson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarsonlarınCirosu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarsonlarınCirosu.Designer.cs">
+      <DependentUpon>GarsonlarınCirosu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GunlereGoreCiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GunlereGoreCiro.Designer.cs">
+      <DependentUpon>GunlereGoreCiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="katdüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="katdüzenle.Designer.cs">
+      <DependentUpon>katdüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı Sil.Designer.cs">
+      <DependentUpon>Kullanıcı Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kurulum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kurulum.Designer.cs">
+      <DependentUpon>Kurulum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasaEkle.Designer.cs">
+      <DependentUpon>MasaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuKategoriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuKategoriEkle.Designer.cs">
+      <DependentUpon>MenuKategoriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParolaDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParolaDegistir.Designer.cs">
+      <DependentUpon>ParolaDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sıfırla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sıfırla.Designer.cs">
+      <DependentUpon>sıfırla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urguncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urguncelle.Designer.cs">
+      <DependentUpon>urguncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="urunekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urunekle.Designer.cs">
+      <DependentUpon>urunekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yeni Kullanıcı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yeni Kullanıcı.Designer.cs">
+      <DependentUpon>Yeni Kullanıcı.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aya Göre Ciro.resx">
+      <DependentUpon>Aya Göre Ciro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garson Parolası Değiştir.resx">
+      <DependentUpon>Garson Parolası Değiştir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garson.resx">
+      <DependentUpon>Garson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarsonlarınCirosu.resx">
+      <DependentUpon>GarsonlarınCirosu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GunlereGoreCiro.resx">
+      <DependentUpon>GunlereGoreCiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="katdüzenle.resx">
+      <DependentUpon>katdüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı Sil.resx">
+      <DependentUpon>Kullanıcı Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kurulum.resx">
+      <DependentUpon>Kurulum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasaEkle.resx">
+      <DependentUpon>MasaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuKategoriEkle.resx">
+      <DependentUpon>MenuKategoriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParolaDegistir.resx">
+      <DependentUpon>ParolaDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="sıfırla.resx">
+      <DependentUpon>sıfırla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urguncelle.resx">
+      <DependentUpon>urguncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urunekle.resx">
+      <DependentUpon>urunekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yeni Kullanıcı.resx">
+      <DependentUpon>Yeni Kullanıcı.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
